@@ -20,6 +20,24 @@
 		D909EFBA1AC297C1004031F5 /* 活动@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFB51AC297C1004031F5 /* 活动@2x.png */; };
 		D909EFBB1AC297C1004031F5 /* 首页@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFB61AC297C1004031F5 /* 首页@2x.png */; };
 		D909EFBD1AC29939004031F5 /* tabbarBkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFBC1AC29939004031F5 /* tabbarBkg@2x.png */; };
+		D909EFC31AC29A91004031F5 /* AdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D909EFBF1AC29A91004031F5 /* AdvertiseView.m */; };
+		D909EFC41AC29A91004031F5 /* HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = D909EFC11AC29A91004031F5 /* HeadView.m */; };
+		D909EFCA1AC29AFE004031F5 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D909EFC91AC29AFE004031F5 /* HomeTableViewController.m */; };
+		D909EFD51AC29C0C004031F5 /* 找我车@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFCD1AC29C0C004031F5 /* 找我车@2x.png */; };
+		D909EFD61AC29C0C004031F5 /* 找广场@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFCE1AC29C0C004031F5 /* 找广场@2x.png */; };
+		D909EFD71AC29C0C004031F5 /* 找商户@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFCF1AC29C0C004031F5 /* 找商户@2x.png */; };
+		D909EFD81AC29C0C004031F5 /* 无线网@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFD01AC29C0C004031F5 /* 无线网@2x.png */; };
+		D909EFD91AC29C0C004031F5 /* 大歌星@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFD11AC29C0C004031F5 /* 大歌星@2x.png */; };
+		D909EFDA1AC29C0C004031F5 /* 看电影@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFD21AC29C0C004031F5 /* 看电影@2x.png */; };
+		D909EFDB1AC29C0C004031F5 /* 会员卡@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFD31AC29C0C004031F5 /* 会员卡@2x.png */; };
+		D909EFDC1AC29C0C004031F5 /* 淘精品@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFD41AC29C0C004031F5 /* 淘精品@2x.png */; };
+		D909EFDE1AC29E2F004031F5 /* HeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D909EFDD1AC29E2F004031F5 /* HeadView.xib */; };
+		D909EFE01AC29E66004031F5 /* AdvertiseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D909EFDF1AC29E66004031F5 /* AdvertiseView.xib */; };
+		D909EFE71AC29EF7004031F5 /* Image1.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFE21AC29EF7004031F5 /* Image1.png */; };
+		D909EFE81AC29EF7004031F5 /* Image2.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFE31AC29EF7004031F5 /* Image2.png */; };
+		D909EFE91AC29EF7004031F5 /* Image3.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFE41AC29EF7004031F5 /* Image3.png */; };
+		D909EFEA1AC29EF7004031F5 /* Image4.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFE51AC29EF7004031F5 /* Image4.png */; };
+		D909EFEB1AC29EF7004031F5 /* Image5.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFE61AC29EF7004031F5 /* Image5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +70,28 @@
 		D909EFB51AC297C1004031F5 /* 活动@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动@2x.png"; sourceTree = "<group>"; };
 		D909EFB61AC297C1004031F5 /* 首页@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页@2x.png"; sourceTree = "<group>"; };
 		D909EFBC1AC29939004031F5 /* tabbarBkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbarBkg@2x.png"; sourceTree = "<group>"; };
+		D909EFBE1AC29A91004031F5 /* AdvertiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseView.h; sourceTree = "<group>"; };
+		D909EFBF1AC29A91004031F5 /* AdvertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseView.m; sourceTree = "<group>"; };
+		D909EFC01AC29A91004031F5 /* HeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadView.h; sourceTree = "<group>"; };
+		D909EFC11AC29A91004031F5 /* HeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadView.m; sourceTree = "<group>"; };
+		D909EFC81AC29AFE004031F5 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		D909EFC91AC29AFE004031F5 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		D909EFCB1AC29B26004031F5 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		D909EFCD1AC29C0C004031F5 /* 找我车@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "找我车@2x.png"; sourceTree = "<group>"; };
+		D909EFCE1AC29C0C004031F5 /* 找广场@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "找广场@2x.png"; sourceTree = "<group>"; };
+		D909EFCF1AC29C0C004031F5 /* 找商户@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "找商户@2x.png"; sourceTree = "<group>"; };
+		D909EFD01AC29C0C004031F5 /* 无线网@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无线网@2x.png"; sourceTree = "<group>"; };
+		D909EFD11AC29C0C004031F5 /* 大歌星@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大歌星@2x.png"; sourceTree = "<group>"; };
+		D909EFD21AC29C0C004031F5 /* 看电影@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "看电影@2x.png"; sourceTree = "<group>"; };
+		D909EFD31AC29C0C004031F5 /* 会员卡@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "会员卡@2x.png"; sourceTree = "<group>"; };
+		D909EFD41AC29C0C004031F5 /* 淘精品@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "淘精品@2x.png"; sourceTree = "<group>"; };
+		D909EFDD1AC29E2F004031F5 /* HeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeadView.xib; sourceTree = "<group>"; };
+		D909EFDF1AC29E66004031F5 /* AdvertiseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvertiseView.xib; sourceTree = "<group>"; };
+		D909EFE21AC29EF7004031F5 /* Image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image1.png; sourceTree = "<group>"; };
+		D909EFE31AC29EF7004031F5 /* Image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image2.png; sourceTree = "<group>"; };
+		D909EFE41AC29EF7004031F5 /* Image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image3.png; sourceTree = "<group>"; };
+		D909EFE51AC29EF7004031F5 /* Image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image4.png; sourceTree = "<group>"; };
+		D909EFE61AC29EF7004031F5 /* Image5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +137,12 @@
 				D909EF8F1AC28146004031F5 /* AppDelegate.m */,
 				D909EF911AC28146004031F5 /* ViewController.h */,
 				D909EF921AC28146004031F5 /* ViewController.m */,
+				D909EFCB1AC29B26004031F5 /* common.h */,
 				D909EF941AC28146004031F5 /* Main.storyboard */,
 				D909EF971AC28146004031F5 /* Images.xcassets */,
 				D909EF991AC28146004031F5 /* LaunchScreen.xib */,
+				D909EFC71AC29AC3004031F5 /* controller */,
+				D909EFC61AC29A97004031F5 /* view */,
 				D909EF8A1AC28146004031F5 /* Supporting Files */,
 			);
 			path = wanhui;
@@ -108,6 +151,8 @@
 		D909EF8A1AC28146004031F5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D909EFE11AC29ED6004031F5 /* advertisementImage */,
+				D909EFCC1AC29BE6004031F5 /* headImage */,
 				D909EFB11AC296D1004031F5 /* tabBarImage */,
 				D909EF8B1AC28146004031F5 /* Info.plist */,
 				D909EF8C1AC28146004031F5 /* main.m */,
@@ -143,6 +188,55 @@
 				D909EFBC1AC29939004031F5 /* tabbarBkg@2x.png */,
 			);
 			name = tabBarImage;
+			sourceTree = "<group>";
+		};
+		D909EFC61AC29A97004031F5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D909EFBE1AC29A91004031F5 /* AdvertiseView.h */,
+				D909EFBF1AC29A91004031F5 /* AdvertiseView.m */,
+				D909EFDF1AC29E66004031F5 /* AdvertiseView.xib */,
+				D909EFC01AC29A91004031F5 /* HeadView.h */,
+				D909EFC11AC29A91004031F5 /* HeadView.m */,
+				D909EFDD1AC29E2F004031F5 /* HeadView.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		D909EFC71AC29AC3004031F5 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				D909EFC81AC29AFE004031F5 /* HomeTableViewController.h */,
+				D909EFC91AC29AFE004031F5 /* HomeTableViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		D909EFCC1AC29BE6004031F5 /* headImage */ = {
+			isa = PBXGroup;
+			children = (
+				D909EFCD1AC29C0C004031F5 /* 找我车@2x.png */,
+				D909EFCE1AC29C0C004031F5 /* 找广场@2x.png */,
+				D909EFCF1AC29C0C004031F5 /* 找商户@2x.png */,
+				D909EFD01AC29C0C004031F5 /* 无线网@2x.png */,
+				D909EFD11AC29C0C004031F5 /* 大歌星@2x.png */,
+				D909EFD21AC29C0C004031F5 /* 看电影@2x.png */,
+				D909EFD31AC29C0C004031F5 /* 会员卡@2x.png */,
+				D909EFD41AC29C0C004031F5 /* 淘精品@2x.png */,
+			);
+			name = headImage;
+			sourceTree = "<group>";
+		};
+		D909EFE11AC29ED6004031F5 /* advertisementImage */ = {
+			isa = PBXGroup;
+			children = (
+				D909EFE21AC29EF7004031F5 /* Image1.png */,
+				D909EFE31AC29EF7004031F5 /* Image2.png */,
+				D909EFE41AC29EF7004031F5 /* Image3.png */,
+				D909EFE51AC29EF7004031F5 /* Image4.png */,
+				D909EFE61AC29EF7004031F5 /* Image5.png */,
+			);
+			name = advertisementImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,13 +320,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				D909EFBB1AC297C1004031F5 /* 首页@2x.png in Resources */,
+				D909EFE91AC29EF7004031F5 /* Image3.png in Resources */,
 				D909EFB91AC297C1004031F5 /* 优惠券@2x.png in Resources */,
+				D909EFD61AC29C0C004031F5 /* 找广场@2x.png in Resources */,
+				D909EFE81AC29EF7004031F5 /* Image2.png in Resources */,
+				D909EFD71AC29C0C004031F5 /* 找商户@2x.png in Resources */,
+				D909EFEA1AC29EF7004031F5 /* Image4.png in Resources */,
 				D909EF961AC28146004031F5 /* Main.storyboard in Resources */,
+				D909EFE71AC29EF7004031F5 /* Image1.png in Resources */,
 				D909EFB71AC297C1004031F5 /* 我@2x.png in Resources */,
+				D909EFE01AC29E66004031F5 /* AdvertiseView.xib in Resources */,
+				D909EFD91AC29C0C004031F5 /* 大歌星@2x.png in Resources */,
+				D909EFDA1AC29C0C004031F5 /* 看电影@2x.png in Resources */,
+				D909EFD81AC29C0C004031F5 /* 无线网@2x.png in Resources */,
+				D909EFDC1AC29C0C004031F5 /* 淘精品@2x.png in Resources */,
+				D909EFDE1AC29E2F004031F5 /* HeadView.xib in Resources */,
+				D909EFD51AC29C0C004031F5 /* 找我车@2x.png in Resources */,
 				D909EFB81AC297C1004031F5 /* 餐饮@2x.png in Resources */,
 				D909EF9B1AC28146004031F5 /* LaunchScreen.xib in Resources */,
 				D909EFBD1AC29939004031F5 /* tabbarBkg@2x.png in Resources */,
 				D909EFBA1AC297C1004031F5 /* 活动@2x.png in Resources */,
+				D909EFEB1AC29EF7004031F5 /* Image5.png in Resources */,
+				D909EFDB1AC29C0C004031F5 /* 会员卡@2x.png in Resources */,
 				D909EF981AC28146004031F5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,8 +360,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D909EFC31AC29A91004031F5 /* AdvertiseView.m in Sources */,
+				D909EFC41AC29A91004031F5 /* HeadView.m in Sources */,
 				D909EF931AC28146004031F5 /* ViewController.m in Sources */,
 				D909EF901AC28146004031F5 /* AppDelegate.m in Sources */,
+				D909EFCA1AC29AFE004031F5 /* HomeTableViewController.m in Sources */,
 				D909EF8D1AC28146004031F5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

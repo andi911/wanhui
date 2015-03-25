@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVq-fm-fMk">
+                    <rect key="frame" x="28" y="8" width="32" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="32" id="sM2-Mw-8iD"/>
+                    </constraints>
+                    <state key="normal" image="会员卡.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="会员卡" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0SK-kO-EDa">
+                    <rect key="frame" x="23" y="37" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="cCW-Nr-IH6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrw-y7-V04">
+                    <rect key="frame" x="101" y="8" width="32" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="32" id="cZP-0D-mTT"/>
+                    </constraints>
+                    <state key="normal" image="淘精品.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="淘精品" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdU-uz-uEN">
+                    <rect key="frame" x="96" y="37" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="CZq-gs-ago"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfY-ja-wOE">
+                    <rect key="frame" x="180" y="8" width="32" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="32" id="XG3-0h-u49"/>
+                    </constraints>
+                    <state key="normal" image="看电影.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="看电影" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LBV-ut-FGU">
+                    <rect key="frame" x="175" y="37" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="sF3-bp-2Ab"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SNH-iI-gN5">
+                    <rect key="frame" x="254" y="8" width="32" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="32" id="s74-70-IIf"/>
+                    </constraints>
+                    <state key="normal" image="大歌星.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="大歌星" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WlP-39-xQo">
+                    <rect key="frame" x="249" y="37" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="cC4-R4-XgU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H3O-Oo-BLv">
+                    <rect key="frame" x="28" y="63" width="32" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="32" id="PSr-Tl-XxQ"/>
+                    </constraints>
+                    <state key="normal" image="无线网.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="无线网" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRb-1B-aT2">
+                    <rect key="frame" x="23" y="91" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="0UH-p2-nWu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0pu-s1-hot">
+                    <rect key="frame" x="101" y="62" width="32" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="32" id="hw4-YN-zYc"/>
+                    </constraints>
+                    <state key="normal" image="找商户.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="找商户" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BeJ-fN-BfE">
+                    <rect key="frame" x="96" y="91" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="tk6-iC-NCG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FwD-Sm-d8G">
+                    <rect key="frame" x="180" y="62" width="32" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="32" id="Lzm-nv-jgR"/>
+                    </constraints>
+                    <state key="normal" image="找广场.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="扫广场" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EnT-vk-0CN">
+                    <rect key="frame" x="175" y="91" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="b8m-5Y-QXB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fvb-M2-hDY">
+                    <rect key="frame" x="254" y="63" width="32" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="32" id="a6f-4b-A81"/>
+                    </constraints>
+                    <state key="normal" image="找我车.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="找我车" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4CK-oL-P8t">
+                    <rect key="frame" x="249" y="91" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="qoE-S9-kdg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="EnT-vk-0CN" firstAttribute="leading" secondItem="BeJ-fN-BfE" secondAttribute="trailing" constant="37" id="1oe-G4-UJ4"/>
+                <constraint firstItem="Fvb-M2-hDY" firstAttribute="width" secondItem="FwD-Sm-d8G" secondAttribute="width" id="637-K2-jk3"/>
+                <constraint firstItem="WlP-39-xQo" firstAttribute="leading" secondItem="LBV-ut-FGU" secondAttribute="trailing" constant="32" id="6z0-xj-nki"/>
+                <constraint firstItem="cVq-fm-fMk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="28" id="6zt-RQ-psp"/>
+                <constraint firstItem="gdU-uz-uEN" firstAttribute="width" secondItem="WlP-39-xQo" secondAttribute="width" id="Atv-81-bxg"/>
+                <constraint firstItem="BeJ-fN-BfE" firstAttribute="width" secondItem="ZRb-1B-aT2" secondAttribute="width" id="Bvi-Hy-zbj"/>
+                <constraint firstItem="LBV-ut-FGU" firstAttribute="leading" secondItem="gdU-uz-uEN" secondAttribute="trailing" constant="37" id="E79-Nd-1OP"/>
+                <constraint firstAttribute="trailing" secondItem="4CK-oL-P8t" secondAttribute="trailing" constant="29" id="GUn-hD-O1I"/>
+                <constraint firstItem="Fvb-M2-hDY" firstAttribute="leading" secondItem="EnT-vk-0CN" secondAttribute="trailing" constant="37" id="HqX-uT-M6z"/>
+                <constraint firstItem="gdU-uz-uEN" firstAttribute="width" secondItem="LBV-ut-FGU" secondAttribute="width" id="Jtt-ij-ql4"/>
+                <constraint firstItem="4CK-oL-P8t" firstAttribute="leading" secondItem="EnT-vk-0CN" secondAttribute="trailing" constant="32" id="Jzu-QS-d04"/>
+                <constraint firstItem="H3O-Oo-BLv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="28" id="LOC-fA-I9u"/>
+                <constraint firstItem="Fvb-M2-hDY" firstAttribute="width" secondItem="H3O-Oo-BLv" secondAttribute="width" id="MMX-U0-ePW"/>
+                <constraint firstItem="BeJ-fN-BfE" firstAttribute="leading" secondItem="H3O-Oo-BLv" secondAttribute="trailing" constant="36" id="QzI-fl-K1V"/>
+                <constraint firstItem="FwD-Sm-d8G" firstAttribute="leading" secondItem="0pu-s1-hot" secondAttribute="trailing" constant="47" id="RUR-gI-qcf"/>
+                <constraint firstItem="Fvb-M2-hDY" firstAttribute="leading" secondItem="FwD-Sm-d8G" secondAttribute="trailing" constant="42" id="Ygd-AO-8zl"/>
+                <constraint firstItem="cVq-fm-fMk" firstAttribute="width" secondItem="SNH-iI-gN5" secondAttribute="width" id="aD6-aY-dlz"/>
+                <constraint firstItem="gdU-uz-uEN" firstAttribute="leading" secondItem="0SK-kO-EDa" secondAttribute="trailing" constant="31" id="b5R-mR-MTg"/>
+                <constraint firstItem="BeJ-fN-BfE" firstAttribute="width" secondItem="4CK-oL-P8t" secondAttribute="width" id="cVO-KO-7Rr"/>
+                <constraint firstItem="SNH-iI-gN5" firstAttribute="leading" secondItem="lfY-ja-wOE" secondAttribute="trailing" constant="42" id="dCe-e1-pqI"/>
+                <constraint firstAttribute="trailing" secondItem="Fvb-M2-hDY" secondAttribute="trailing" constant="34" id="doO-wJ-fTN"/>
+                <constraint firstItem="lfY-ja-wOE" firstAttribute="leading" secondItem="zrw-y7-V04" secondAttribute="trailing" constant="47" id="eM4-dO-PtZ"/>
+                <constraint firstItem="Fvb-M2-hDY" firstAttribute="width" secondItem="0pu-s1-hot" secondAttribute="width" id="edT-iT-yvF"/>
+                <constraint firstItem="BeJ-fN-BfE" firstAttribute="leading" secondItem="ZRb-1B-aT2" secondAttribute="trailing" constant="31" id="h8C-fx-HYC"/>
+                <constraint firstItem="0pu-s1-hot" firstAttribute="leading" secondItem="H3O-Oo-BLv" secondAttribute="trailing" constant="41" id="iNC-5B-fEY"/>
+                <constraint firstItem="cVq-fm-fMk" firstAttribute="width" secondItem="lfY-ja-wOE" secondAttribute="width" id="iXH-a9-77d"/>
+                <constraint firstItem="ZRb-1B-aT2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="23" id="jAe-jW-j3b"/>
+                <constraint firstAttribute="trailing" secondItem="SNH-iI-gN5" secondAttribute="trailing" constant="34" id="rq0-jL-MJi"/>
+                <constraint firstItem="gdU-uz-uEN" firstAttribute="width" secondItem="0SK-kO-EDa" secondAttribute="width" id="uHR-Ke-L6P"/>
+                <constraint firstItem="0SK-kO-EDa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="23" id="uz3-1P-ouU"/>
+                <constraint firstItem="cVq-fm-fMk" firstAttribute="width" secondItem="zrw-y7-V04" secondAttribute="width" id="w8F-C3-yIG"/>
+                <constraint firstItem="zrw-y7-V04" firstAttribute="leading" secondItem="cVq-fm-fMk" secondAttribute="trailing" constant="41" id="wjm-gj-b7u"/>
+                <constraint firstItem="BeJ-fN-BfE" firstAttribute="width" secondItem="EnT-vk-0CN" secondAttribute="width" id="x8V-Bb-w0d"/>
+                <constraint firstAttribute="trailing" secondItem="WlP-39-xQo" secondAttribute="trailing" constant="29" id="xdS-Rn-I2t"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="228.5" y="204"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="会员卡.png" width="32" height="32"/>
+        <image name="大歌星.png" width="32" height="32"/>
+        <image name="找商户.png" width="32" height="32"/>
+        <image name="找广场.png" width="32" height="32"/>
+        <image name="找我车.png" width="32" height="32"/>
+        <image name="无线网.png" width="32" height="32"/>
+        <image name="淘精品.png" width="32" height="32"/>
+        <image name="看电影.png" width="32" height="32"/>
+    </resources>
+</document>
