@@ -14,6 +14,12 @@
 		D909EF981AC28146004031F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D909EF971AC28146004031F5 /* Images.xcassets */; };
 		D909EF9B1AC28146004031F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D909EF991AC28146004031F5 /* LaunchScreen.xib */; };
 		D909EFA71AC28147004031F5 /* wanhuiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D909EFA61AC28147004031F5 /* wanhuiTests.m */; };
+		D909EFB71AC297C1004031F5 /* 我@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFB21AC297C1004031F5 /* 我@2x.png */; };
+		D909EFB81AC297C1004031F5 /* 餐饮@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFB31AC297C1004031F5 /* 餐饮@2x.png */; };
+		D909EFB91AC297C1004031F5 /* 优惠券@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFB41AC297C1004031F5 /* 优惠券@2x.png */; };
+		D909EFBA1AC297C1004031F5 /* 活动@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFB51AC297C1004031F5 /* 活动@2x.png */; };
+		D909EFBB1AC297C1004031F5 /* 首页@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFB61AC297C1004031F5 /* 首页@2x.png */; };
+		D909EFBD1AC29939004031F5 /* tabbarBkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFBC1AC29939004031F5 /* tabbarBkg@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,12 @@
 		D909EFA01AC28147004031F5 /* wanhuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wanhuiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D909EFA51AC28147004031F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D909EFA61AC28147004031F5 /* wanhuiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wanhuiTests.m; sourceTree = "<group>"; };
+		D909EFB21AC297C1004031F5 /* 我@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我@2x.png"; sourceTree = "<group>"; };
+		D909EFB31AC297C1004031F5 /* 餐饮@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "餐饮@2x.png"; sourceTree = "<group>"; };
+		D909EFB41AC297C1004031F5 /* 优惠券@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "优惠券@2x.png"; sourceTree = "<group>"; };
+		D909EFB51AC297C1004031F5 /* 活动@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动@2x.png"; sourceTree = "<group>"; };
+		D909EFB61AC297C1004031F5 /* 首页@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页@2x.png"; sourceTree = "<group>"; };
+		D909EFBC1AC29939004031F5 /* tabbarBkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbarBkg@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +108,7 @@
 		D909EF8A1AC28146004031F5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D909EFB11AC296D1004031F5 /* tabBarImage */,
 				D909EF8B1AC28146004031F5 /* Info.plist */,
 				D909EF8C1AC28146004031F5 /* main.m */,
 			);
@@ -117,6 +130,19 @@
 				D909EFA51AC28147004031F5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D909EFB11AC296D1004031F5 /* tabBarImage */ = {
+			isa = PBXGroup;
+			children = (
+				D909EFB21AC297C1004031F5 /* 我@2x.png */,
+				D909EFB31AC297C1004031F5 /* 餐饮@2x.png */,
+				D909EFB41AC297C1004031F5 /* 优惠券@2x.png */,
+				D909EFB51AC297C1004031F5 /* 活动@2x.png */,
+				D909EFB61AC297C1004031F5 /* 首页@2x.png */,
+				D909EFBC1AC29939004031F5 /* tabbarBkg@2x.png */,
+			);
+			name = tabBarImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +225,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D909EFBB1AC297C1004031F5 /* 首页@2x.png in Resources */,
+				D909EFB91AC297C1004031F5 /* 优惠券@2x.png in Resources */,
 				D909EF961AC28146004031F5 /* Main.storyboard in Resources */,
+				D909EFB71AC297C1004031F5 /* 我@2x.png in Resources */,
+				D909EFB81AC297C1004031F5 /* 餐饮@2x.png in Resources */,
 				D909EF9B1AC28146004031F5 /* LaunchScreen.xib in Resources */,
+				D909EFBD1AC29939004031F5 /* tabbarBkg@2x.png in Resources */,
+				D909EFBA1AC297C1004031F5 /* 活动@2x.png in Resources */,
 				D909EF981AC28146004031F5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +446,7 @@
 				D909EFAC1AC28147004031F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D909EFAD1AC28147004031F5 /* Build configuration list for PBXNativeTarget "wanhuiTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +455,7 @@
 				D909EFAF1AC28147004031F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
