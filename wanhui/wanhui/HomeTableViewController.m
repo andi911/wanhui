@@ -10,6 +10,7 @@
 #import "AdvertiseView.h"
 #import "common.h"
 #import "HeadView.h"
+#import "XHNewsTemplateTableViewCell.h"
 @interface HomeTableViewController ()
 @property (nonatomic, strong)HeadView *headView;
 @end
@@ -46,18 +47,26 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+    return 4;
 }
 
-/*
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return kXHNewsTemplateContainerViewHeight + kXHNewsTemplateContainerViewSpacing * 2;
+}
+
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
+    static NSString *cellIdentifier = @"cellIdentifier";
+    XHNewsTemplateTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    if (!cell) {
+        cell = [[XHNewsTemplateTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    }
     
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.

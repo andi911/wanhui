@@ -38,6 +38,11 @@
 		D909EFE91AC29EF7004031F5 /* Image3.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFE41AC29EF7004031F5 /* Image3.png */; };
 		D909EFEA1AC29EF7004031F5 /* Image4.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFE51AC29EF7004031F5 /* Image4.png */; };
 		D909EFEB1AC29EF7004031F5 /* Image5.png in Resources */ = {isa = PBXBuildFile; fileRef = D909EFE61AC29EF7004031F5 /* Image5.png */; };
+		D909F0031AC3BB38004031F5 /* XHNewsTemplateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D909F0021AC3BB38004031F5 /* XHNewsTemplateTableViewCell.m */; };
+		D909F0061AC3BB58004031F5 /* XHNewsTemplateContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D909F0051AC3BB58004031F5 /* XHNewsTemplateContainerView.m */; };
+		D909F0091AC3BB61004031F5 /* XHNewsContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D909F0081AC3BB61004031F5 /* XHNewsContainerView.m */; };
+		D909F00B1AC3BC27004031F5 /* NewsBackgroundImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D909F00A1AC3BC27004031F5 /* NewsBackgroundImage@2x.png */; };
+		D909F00D1AC3BD29004031F5 /* AlbumHeaderBackgrounImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D909F00C1AC3BD29004031F5 /* AlbumHeaderBackgrounImage@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +97,14 @@
 		D909EFE41AC29EF7004031F5 /* Image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image3.png; sourceTree = "<group>"; };
 		D909EFE51AC29EF7004031F5 /* Image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image4.png; sourceTree = "<group>"; };
 		D909EFE61AC29EF7004031F5 /* Image5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image5.png; sourceTree = "<group>"; };
+		D909F0011AC3BB38004031F5 /* XHNewsTemplateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHNewsTemplateTableViewCell.h; sourceTree = "<group>"; };
+		D909F0021AC3BB38004031F5 /* XHNewsTemplateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHNewsTemplateTableViewCell.m; sourceTree = "<group>"; };
+		D909F0041AC3BB58004031F5 /* XHNewsTemplateContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHNewsTemplateContainerView.h; sourceTree = "<group>"; };
+		D909F0051AC3BB58004031F5 /* XHNewsTemplateContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHNewsTemplateContainerView.m; sourceTree = "<group>"; };
+		D909F0071AC3BB61004031F5 /* XHNewsContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHNewsContainerView.h; sourceTree = "<group>"; };
+		D909F0081AC3BB61004031F5 /* XHNewsContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHNewsContainerView.m; sourceTree = "<group>"; };
+		D909F00A1AC3BC27004031F5 /* NewsBackgroundImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NewsBackgroundImage@2x.png"; sourceTree = "<group>"; };
+		D909F00C1AC3BD29004031F5 /* AlbumHeaderBackgrounImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlbumHeaderBackgrounImage@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +154,7 @@
 				D909EF941AC28146004031F5 /* Main.storyboard */,
 				D909EF971AC28146004031F5 /* Images.xcassets */,
 				D909EF991AC28146004031F5 /* LaunchScreen.xib */,
+				D909F0001AC3BB1E004031F5 /* customCell */,
 				D909EFC71AC29AC3004031F5 /* controller */,
 				D909EFC61AC29A97004031F5 /* view */,
 				D909EF8A1AC28146004031F5 /* Supporting Files */,
@@ -151,6 +165,8 @@
 		D909EF8A1AC28146004031F5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D909F00A1AC3BC27004031F5 /* NewsBackgroundImage@2x.png */,
+				D909F00C1AC3BD29004031F5 /* AlbumHeaderBackgrounImage@2x.png */,
 				D909EFE11AC29ED6004031F5 /* advertisementImage */,
 				D909EFCC1AC29BE6004031F5 /* headImage */,
 				D909EFB11AC296D1004031F5 /* tabBarImage */,
@@ -237,6 +253,19 @@
 				D909EFE61AC29EF7004031F5 /* Image5.png */,
 			);
 			name = advertisementImage;
+			sourceTree = "<group>";
+		};
+		D909F0001AC3BB1E004031F5 /* customCell */ = {
+			isa = PBXGroup;
+			children = (
+				D909F0011AC3BB38004031F5 /* XHNewsTemplateTableViewCell.h */,
+				D909F0021AC3BB38004031F5 /* XHNewsTemplateTableViewCell.m */,
+				D909F0041AC3BB58004031F5 /* XHNewsTemplateContainerView.h */,
+				D909F0051AC3BB58004031F5 /* XHNewsTemplateContainerView.m */,
+				D909F0071AC3BB61004031F5 /* XHNewsContainerView.h */,
+				D909F0081AC3BB61004031F5 /* XHNewsContainerView.m */,
+			);
+			name = customCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,6 +364,8 @@
 				D909EFD81AC29C0C004031F5 /* 无线网@2x.png in Resources */,
 				D909EFDC1AC29C0C004031F5 /* 淘精品@2x.png in Resources */,
 				D909EFDE1AC29E2F004031F5 /* HeadView.xib in Resources */,
+				D909F00D1AC3BD29004031F5 /* AlbumHeaderBackgrounImage@2x.png in Resources */,
+				D909F00B1AC3BC27004031F5 /* NewsBackgroundImage@2x.png in Resources */,
 				D909EFD51AC29C0C004031F5 /* 找我车@2x.png in Resources */,
 				D909EFB81AC297C1004031F5 /* 餐饮@2x.png in Resources */,
 				D909EF9B1AC28146004031F5 /* LaunchScreen.xib in Resources */,
@@ -360,12 +391,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D909F0031AC3BB38004031F5 /* XHNewsTemplateTableViewCell.m in Sources */,
 				D909EFC31AC29A91004031F5 /* AdvertiseView.m in Sources */,
 				D909EFC41AC29A91004031F5 /* HeadView.m in Sources */,
 				D909EF931AC28146004031F5 /* ViewController.m in Sources */,
 				D909EF901AC28146004031F5 /* AppDelegate.m in Sources */,
 				D909EFCA1AC29AFE004031F5 /* HomeTableViewController.m in Sources */,
+				D909F0091AC3BB61004031F5 /* XHNewsContainerView.m in Sources */,
 				D909EF8D1AC28146004031F5 /* main.m in Sources */,
+				D909F0061AC3BB58004031F5 /* XHNewsTemplateContainerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
